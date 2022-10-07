@@ -52,7 +52,7 @@ export default function Pagar({productos, tarjeta}) {
     return (
         <div>
             <br/>
-            <Button variant="outlined" onClick={handleClickOpen}>
+            <Button variant={"contained"} color={"secondary"} onClick={handleClickOpen} style={{maxHeight: 48 * 4.5 + 8, width: 300}} sx={{m: 1}}>
                 Pagar carrito
             </Button>
 

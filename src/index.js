@@ -5,13 +5,16 @@ import App from './App';
 import Container from "@mui/material/Container";
 import reportWebVitals from "./reportWebVitals";
 import { createRoot } from "react-dom/client";
+import {Divider} from "@mui/material";
 
 const container = document.getElementById("root");
 const root = createRoot(container); // createRoot(container!) if you use TypeScript
 root.render(
     <React.StrictMode>
         <Container fluid className="body">
+
             <App />
+
         </Container>
     </React.StrictMode>
 );
